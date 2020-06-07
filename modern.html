@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding World</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+</head>
+<style>
+body{
+    background-color: black;
+    color: white;
+    margin:0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+    top: 0;
+}
+header::before{
+    content: "";
+    background: url('https://source.unsplash.com/collection/190727/1600x900')no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+
+section{
+    margin: 3px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid white; */
+    justify-content: center;
+}
+/* section::before{
+    content: "This is before content";
+} */
+/* section::after{
+    content: "This is after content";
+} */
+.navig{
+    display: flex;
+
+    
+}
+.navig li{
+    list-style: none;
+    padding: 20px 23px;
+}
+h3{
+    font-size: 2rem;
+}
+.cont{
+    align-items: center;
+    color:white;
+    font-size: 35px;
+    align-items: flex-end;
+    margin-left:50px ;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+</style>
+<body>
+    <header>
+
+        <nav class="navbar">
+            <ul class="navig">
+                <li class="item">Home</li>
+                <li class="item">Learn</li>
+                <li class="item">Services</li>
+                <li class="item">Contact us</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h3>Welcome To Coding World</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates tenetur iste omnis totam blanditiis veritatis ab repellendus, fugiat quis iure repudiandae nisi inventore numquam magnam ut eum hic nemo quam amet? Qui, et dolores?</p>
+
+    </section>
+    
+</body>
+</html>
